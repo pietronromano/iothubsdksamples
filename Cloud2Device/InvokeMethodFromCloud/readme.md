@@ -5,7 +5,7 @@ dotnet --version
 >7.0.102
 
 # Create the project (run from folder above)
-dotnet new console -o SendFromCloud2Device
+dotnet new console -o InvokeMethodFromCloud
 
 ## Generates simplified Program with implicit usings, See:
 https://aka.ms/new-console-template
@@ -40,6 +40,6 @@ dotnet build
 dotnet run ""<device connection string>"" "100" "1000"
 
 # Run from any terminal - in the \bin\Debug\net7.0 folder
-dotnet SendFromDeviceToCloud "<device hub connection string>" "100" "1000"
+dotnet InvokeMethodFromCloud "<device hub connection string>" "100" "1000"
 
 
