@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/net7.0/ReceiveFromCloud2Device.dll",
-            "args": ["HostName=pnriothub1.azure-devices.net;DeviceId=telemetrySDKDevice;SharedAccessKey=mjQMeVZpUtCJMCePvyqbyujzMSr3U9M+Im/wZOf2BpU="],
+            "args": ["HostName=<youriothubname>.azure-devices.net;DeviceId=telemetrySDKDevice;SharedAccessKey=mjQMeVZpUtCJMCePvyqbyujzMSr3U9M+Im/wZOf2BpU="],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopAtEntry": false

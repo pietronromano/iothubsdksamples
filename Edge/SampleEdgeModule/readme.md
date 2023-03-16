@@ -35,9 +35,9 @@ docker image build -t $acrimg .
 docker image push $acrimg
 
 # Set the device modules in iothub
-az iot edge set-modules --hub-name pnriothub1 --device-id testedgemodules --content ./deployment.template.json --login "<iot hub connection string>"
+az iot edge set-modules --hub-name <youriothubname> --device-id testedgemodules --content ./deployment.template.json --login "<iot hub connection string>"
 
 
 # Monitor
-az iot hub monitor-events -n pnriothub1 -d testedgemodules
+az iot hub monitor-events -n <youriothubname> -d testedgemodules
 

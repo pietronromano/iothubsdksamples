@@ -26,7 +26,7 @@ dotnet build
     "args": ["Endpoint=sb://event hub connection string"],
 
 # Monitor Events from Azure IoT Explorer or Azure CLI:
-az iot hub monitor-events -n pnriothub1 -d telemetrySDKDevice
+az iot hub monitor-events -n <youriothubname> -d telemetrySDKDevice
 
 # On another machine, Restore dependencies
 dotnet restore

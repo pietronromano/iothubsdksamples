@@ -26,7 +26,7 @@ dotnet build
     "args": [""<device connection string>"","100","1000"],
 
 # Monitor Events from Azure IoT Explorer or Azure CLI:
-az iot hub monitor-events -n pnriothub1 -d telemetrySDKDevice
+az iot hub monitor-events -n <youriothubname> -d telemetrySDKDevice
 
 # IoT Hub Route: random messages have temperature > 30, generated temperatureAlert
 ## Routing Query: 

@@ -8,11 +8,11 @@ using Azure.Messaging.EventHubs.Processor; //EventProcessorClient
 
 public class MyEventHubProcessor {
 
-    string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=pnrsaiot;AccountKey=VrVXq/dNwmd6H7gTrtBvLnLUnKXOxaLbMXrWzzyewgzA15mO+d6CxMRJZCXiZt9jOQK+I3SK8foT+AStQi2KLg==;EndpointSuffix=core.windows.net";
+    string storageConnectionString = "<storage connection string>";
     string blobContainerName = "eventhubprocessor";
 
-    string eventHubsConnectionString = "Endpoint=sb://iothub-ns-pnriothub1-23842243-1da6382eee.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=wfiocYmDIBUbyyqRK1ohL/dLJZmiOn9Wkc0KbkvP6Us=;EntityPath=pnriothub1";
-    string eventHubName = "pnriothub1";
+    string eventHubsConnectionString = "Endpoint=sb://iothub-ns-<youriothubname>.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=...;EntityPath=<youriothubname>";
+    string eventHubName = "<youriothubname>";
 
     BlobContainerClient storageClient;
     EventProcessorClient processor;

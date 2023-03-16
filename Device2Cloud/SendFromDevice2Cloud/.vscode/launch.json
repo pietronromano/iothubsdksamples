@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/net7.0/SendFromDevice2Cloud.dll",
             //args[0]=DeviceConnectionString,args[1]=MessageCount,args[2]=MessageDelay
-            "args": ["HostName=pnriothub1.azure-devices.net;DeviceId=telemetrySDKDevice;SharedAccessKey=mjQMeVZpUtCJMCePvyqbyujzMSr3U9M+Im/wZOf2BpU=",
+            "args": ["HostName=<youriothubname>.azure-devices.net;DeviceId=telemetrySDKDevice;SharedAccessKey=mjQMeVZpUtCJMCePvyqbyujzMSr3U9M+Im/wZOf2BpU=",
                      "10","1000"],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",

@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/net7.0/ReceiveFromDevice2Cloud.dll",
-            "args": ["Endpoint=sb://iothub-ns-pnriothub1-23842243-1da6382eee.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=wfiocYmDIBUbyyqRK1ohL/dLJZmiOn9Wkc0KbkvP6Us=;EntityPath=pnriothub1"],
+            "args": ["Endpoint=sb://iothub-ns-<youriothubname>-23842243-1da6382eee.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=wfiocYmDIBUbyyqRK1ohL/dLJZmiOn9Wkc0KbkvP6Us=;EntityPath=<youriothubname>"],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopAtEntry": false
