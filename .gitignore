@@ -1,0 +1,6 @@
+# Exclude any bin or obj directory at any level
+**/bin/
+**/obj/
+
+# Include .vscode dir
+!**/.vscode/*
